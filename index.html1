@@ -1,0 +1,143 @@
+<!DOCTYPE httml>
+    <head>
+        <title> Asif Newaz  </title>
+        <link rel="stylesheet" type="text/css" href="sheet4.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="themes/light/light.css" media="screen" />  
+        <link rel="stylesheet" type="text/css" href="themes/dark/dark.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="themes/bar/bar.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="themes/default/default.css" media="screen" />	
+        <link rel="stylesheet" type="text/css" href="nivo-slider.css" media="screen" />	
+      
+
+   </head>
+   <body > 
+   <script type="text/javascript" src="js/jquery-1.9.0.min.js"> </script>
+   <script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#navigation");
+	var pos = s.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	});
+});
+</script>
+      <div id="frame" > 
+         <div id="page" > 
+              <div id="header"> header </div > 
+              <div id="navigation" > 
+	             <ul>
+                     <li class='active'><a href='index.html'><span>Home</span></a></li>
+                     <li class='has-sub'><a href='#'><span>NSTU</span> </a> 
+				           <ul>
+                             <li><a href='#'><span>Home</span></a></li>
+                             <li class='last'><a href='#'><span>Department</span></a>
+						          <ul>
+                                     <li><a href='#'><span>CSTE</span></a>
+								           <ul>
+                                             <li><a href='#'><span>Teacher</span></a></li>
+                                             <li class='last'><a href='#'><span>Student</span></a></li>
+                                         </ul> 
+									
+								       </li>
+                                     <li class='last'><a href='#'><span>CEAC</span></a></li>
+		                             <li class='last'><a href='#'><span>FIMS</span></a></li>
+									    <li class='last'><a href='#'><span>Pharmacy</span></a></li>
+										<li class='last'><a href='#'><span>Microbiology</span></a></li>
+										<li class='last'><a href='#'><span>Applied Math</span></a></li>
+										<li class='last'><a href='#'><span>FTNS</span></a></li>
+										<li class='last'><a href='#'><span>ESHS</span></a></li>
+										<li class='last'><a href='#'><span>English</span></a></li>
+										<li class='last'><a href='#'><span>ICT</span></a></li>
+										<li class='last'><a href='#'><span>BGE</span></a></li>
+										<li class='last'><a href='#'><span>Coastal Agriculture</span></a></li>
+										<li class='last'><a href='#'><span>BBA</span></a></li>
+										<li class='last'><a href='#'><span>EPS</span></a></li>
+                                 </ul> 
+						       </li>
+		                     <li class='last'><a href='#'><span>Notice</span></a></li>		 
+                         </ul>
+				 
+				       </li>
+                     <li class='has-sub'><a href='#'><span>Tutorial</span></a>
+                         <ul>
+                             <li><a href='#'><span>Html</span></a></li>
+                             <li class='last'><a href='#'><span>CSS</span></a></li>
+		                     <li class='last'><a href='#'><span>Javascript</span></a></li>
+		                     <li class='last'><a href='#'><span>Jquery</span></a></li>		 
+                         </ul>
+                      </li>
+				       <li class='has-sub'><a href='#'><span>Vedio tutorial</span></a>
+                         <ul>
+                             <li><a href='#'><span>Html</span></a></li>
+                             <li class='last'><a href='#'><span>CSS</span></a></li>
+		                     <li class='last'><a href='#'><span>Javascript</span></a></li>
+		                     <li class='last'><a href='#'><span>Jquery</span></a></li>		 
+                         </ul>
+                     </li>
+                     <li><a href='#'><span>About</span></a>
+				          <ul>
+                             <li class='last'><a href='#'><span>Administrator</span></a></li>
+		                     <li class='last'><a href='#'><span>Profile</span></a></li>
+		                     <li class='last'><a href='#'><span>Sitemap</span></a></li>		 
+                         </ul>
+				      </li>
+                     <li class='last'><a href='#'><span>Contact</span></a>
+				          <ul>
+                             <li><a href='#'><span>Phone</span></a>
+						          <ul>
+                                     <li class='last'><a href='#'><span>+8801924656681</span></a></li>
+                                     <li class='last'><a href='#'><span>+8801529102590</span></a></li>	 
+                                 </ul>						 
+						      </li>
+                             <li class='last'><a href='#'><span>Facebook</span></a></li>
+		                     <li class='last'><a href='#'><span>Twitter</span></a></li>
+		                      <li class='last'><a href='#'><span>Blog</span></a></li>		 
+                         </ul>				 
+				       </li>
+                  </ul>
+			       <div id="search">
+			          <input type="text" name="search" value="search" /> 
+				      <input type="button" name="search" value="search" />
+				 
+			       </div> 
+	          </div > 
+             <div class="fix column1of3" >			      
+	  	          <div class="subcolumn1o1">  as </div>
+			      <div class="subcolumn1o2"> if </div>	
+              </div>				  
+		       
+              <div class="column2of3" >
+			  <div class="slider-wrapper theme-default">
+                 <div  class="nivoSlider" id="slider"> 
+				      <img src="image4/beauti.jpg" alt="" /> 
+				      <img src="image4/japan.jpg" alt="" /> 
+				      <img src="image4/boy.jpg" alt="" /> 
+			      </div >
+				  </div>
+				      <div class="fix one"> </div>
+				      <div class="fix two"> </div>
+				      <div class="fix three"> </div>
+		       </div > 
+              <div class="fix column3of3" > 
+		         <div class="subcolumn3o1">  as </div>
+			     <div class="subcolumn3o2"> if </div>	 
+		       </div > 
+              <div id="footer" > copyright &copy; asif newaz </div > 
+           </div >
+      </div >
+	      
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"> </script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+   </script>
+ </body >
+ </html>
+<!--  <iframe src="frame.html" name="iframe" style="height:490px; width:550px"> </iframe> -->
